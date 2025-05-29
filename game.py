@@ -32,7 +32,7 @@ def print_pause(message, delay=0.5):  # delays the messages
 
 
 def check_run_count():
-    #  checks if you ran too away from the dragon alot
+    #  checks if you run too away from the dragon alot
     #  and ends the game if you did.
     global total_score
     if total_score >= 3:
@@ -61,7 +61,7 @@ def intro():  # Introduction to the game..duh
     print(f"Your current score is: {total_score}")
 
 
-def retry_game():  # retrys the game if the you want to play again
+def retry_game():  # retries the game if you want to play again
     global game_started, total_score
     choice = input("Do you want to play again? (yes/no) ").lower()
     if choice == "yes":
